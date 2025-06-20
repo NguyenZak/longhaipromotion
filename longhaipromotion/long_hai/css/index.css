@@ -570,7 +570,7 @@ li.page-item.active .page-link {
     grid-gap: 10px 0;
   }
   .future .card .imgs .img-top {
-    height: 200px;
+    height: auto;
   }
 }
 .active > .page-link,
