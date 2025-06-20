@@ -32,9 +32,6 @@ a {
     margin-top: 40px;
 }
 
-.wrap-tuyen-dung {
-}
-
 .wrap-tuyen-dung .home-title .tuyendung_box2_title {
     text-align: center;
     color: #020416;
@@ -84,8 +81,7 @@ a {
     grid-gap: 20px;
 }
 
-.wrap-tuyen-dung .tuyen-dung .list .item .left {
-}
+
 
 .wrap-tuyen-dung .tuyen-dung .list .item .left .name {
     color: #05586c;
@@ -106,8 +102,7 @@ a {
     margin-top: 10px;
 }
 
-.wrap-tuyen-dung .tuyen-dung .list .item .right {
-}
+
 
 .wrap-tuyen-dung .tuyen-dung .list .item .right button {
     border-radius: 8px;
@@ -121,8 +116,6 @@ a {
     line-height: 20px;
 }
 
-.wrap-tuyen-dung .tuyen-dung .form {
-}
 
 .wrap-tuyen-dung .tuyen-dung .form .name-form {
     color: #e8b96e;
@@ -150,9 +143,6 @@ a {
     font-weight: 400;
 }
 
-.wrap-tuyen-dung .tuyen-dung .form .form-group textarea,
-.wrap-tuyen-dung .tuyen-dung .form .form-group input {
-}
 
 
 .wrap-tuyen-dung .tuyen-dung .form .form-group button {

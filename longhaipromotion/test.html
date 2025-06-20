@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hình Chữ Nhật Lắc Kiểu Cân Bằng</title>
+  <style>
+    body {
+      background: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .shaker {
+      transform-origin: center center;
+      animation: balanceShake 1s ease-in-out infinite alternate;
+    }
+
+    @keyframes balanceShake {
+      0%   { transform: rotate(-8deg); }
+      100% { transform: rotate(8deg); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="shaker">
+    <!-- Hình chữ nhật màu xanh dương -->
+    <svg width="200" height="100" viewBox="0 0 200 100" fill="none">
+      <rect x="20" y="30" width="160" height="40" fill="#00BFFF" rx="8" />
+    </svg>
+  </div>
+
+</body>
+</html>

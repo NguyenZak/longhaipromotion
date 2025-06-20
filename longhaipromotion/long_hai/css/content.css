@@ -20,9 +20,6 @@ body {
     font-weight: 500;
 }
 
-{
-
-}
 .top {
     margin-top: 40px;
 
@@ -31,17 +28,14 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
-.top .left {
-}
+
 
 .top .left img {
     width: 100%;
     object-fit: cover;
 }
 
-.top .right {
 
-}
 
 .top .right .name {
     color: #020416;
@@ -92,8 +86,7 @@ body {
     text-transform: uppercase;
 }
 
-.show-block-content .desc {
-}
+
 
 
 /**/

@@ -1,6 +1,7 @@
 :root {
   --bgMain: #9b1217;
   --bgNew: #05586c;
+  --bgNew2: #46a8b3;
 }
 body {
   font-weight: 400;
@@ -12,7 +13,7 @@ header {
   background: var(--bgNew);
 }
 header .header-wrap {
-  padding: 18px 0;
+  padding: 0px 0;
 }
 header .header-left {
   display: flex;
@@ -22,7 +23,7 @@ header .header-left .header-left__info {
   align-items: center;
 }
 header .header-left .header-left__info .hli_item {
-  border-radius: 16px;
+  /* border-radius: 16px;
   border: 1px solid hsla(0, 0%, 100%, 0.4);
   background: linear-gradient(42deg, #05586c 25.62%, #46a8b3 106.2%);
   box-shadow: 2px 4px 16px 0 #121b45;
@@ -30,13 +31,13 @@ header .header-left .header-left__info .hli_item {
   align-items: center;
   color: #fff;
   font-weight: 700;
-  padding: 10px 23px;
+  padding: 10px 23px; */
 }
 header .header-left .header-left__info .hli_item .text {
   margin-left: 7px;
 }
 header .header-left .header-left__info .hli_item:hover {
-  background-color: var(--bgMain);
+  background-color: var(--bgNew);
   color: #fff;
 }
 header .header-left .header-left__info i {
@@ -50,6 +51,10 @@ header .header-left .icon-menu button {
 header .header-left .icon-menu button i {
   color: #fff;
   font-size: 24px;
+}
+.header-left img {
+  width: 100px;
+  height: auto;
 }
 header .header-center .header-center__logo {
   width: 70%;
@@ -154,7 +159,7 @@ header .header-menu .menu .line {
     display: none;
   }
   header .header-center .header-center__logo {
-    height: 55px;
+    height: 30px;
   }
 }
 body {

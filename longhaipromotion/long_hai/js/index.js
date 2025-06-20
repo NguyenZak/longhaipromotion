@@ -31,3 +31,17 @@ function buildUrlQueryString(params, defaultUrl) {
     });
     return url;
 }
+
+
+const marquee = document.getElementById('marquee');
+const marqueeClone = document.getElementById('marquee-clone');
+
+const content = `
+  <span class="solid">LONG HẢI PROMOTION</span><span class="separator">*</span>
+  <span class="outline">LONG HẢI PROMOTION</span><span class="separator">*</span>
+`;
+
+const repeated = content.repeat(20); // Số lần lặp đủ để hiệu ứng mượt
+marquee.innerHTML = repeated;
+marqueeClone.innerHTML = repeated;
+

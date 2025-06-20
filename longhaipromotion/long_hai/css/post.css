@@ -104,6 +104,7 @@ body {
     color: #212529;
     font-size: 14px;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     display: -webkit-box;
@@ -158,7 +159,7 @@ body {
 .content .post-event button.select-button.active {
     border-radius: 16px;
     border: 1px solid rgba(255, 255, 255, 0.60);
-    background: linear-gradient(90deg, #07318D 0%, #124ED1 100%);
+    background: linear-gradient(90deg, #05586c 0%, #46a8b3 100%);
     box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.20);
     color: #FFFFFF;
 
@@ -213,6 +214,7 @@ body {
 .content .post-event .list-post .item-post .card .card-body .card-text {
     color: #020416;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     display: -webkit-box;
