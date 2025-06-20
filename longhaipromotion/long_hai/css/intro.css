@@ -1,0 +1,187 @@
+
+body {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+.breadcrumb a,
+.breadcrumb {
+    margin: 0;
+    margin-top: 40px;
+    color: rgba(2, 4, 22, 0.60);
+}
+.breadcrumb .active {
+    color: #020416;
+    font-weight: 500;
+}
+
+.content {
+    margin-bottom: 60px;
+}
+
+.content .about {
+    border-left: 6px solid #EAA43F;
+    background: #05586c;
+    backdrop-filter: blur(2px);
+    position: relative;
+    margin-top: 40px;
+}
+
+.content .about .block-left {
+    padding: 40px;
+}
+
+.content .about .block-left .title {
+
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.content .about .block-left .content {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.content .about .block-left .content strong {
+    color: #F9D59B;
+}
+
+.content .about .block-right {
+    padding: 0;
+}
+
+.content .about .block-right .about-img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .about .block-right .about-img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.content .about .nhay {
+    position: absolute;
+    left: 40%;
+    bottom: -29px;
+}
+
+.content .su-menh {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px 40px;
+}
+
+.content .su-menh .su-menh-item .title {
+    border: 1px solid #05586c;
+    background: #05586c;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    width: fit-content;
+    padding: 10px 25px;
+}
+
+.content .su-menh .su-menh-item .ctent {
+    margin-top: 15px;
+    color: #020416;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.content .partner {
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 40px;
+    background: linear-gradient(180deg, rgba(234, 164, 63, 0.20) 0%, rgba(32, 43, 93, 0.00) 100%);
+    box-shadow: 0px 0px 40px 16px rgba(255, 255, 255, 0.12) inset;
+}
+
+.content .partner .p-title {
+    color: #020416;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.content .partner .p-content {
+    color: #020416;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+
+@media only screen and (max-width: 920px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+    .content .about .block-right .about-img img {
+        height: unset;
+        width: 100%;
+    }
+
+    .nhay {
+        display: none;
+    }
+
+    .content {
+        margin-bottom: 20px;
+    }
+
+    .content .about .block-left {
+        padding: 20px;
+    }
+
+    .content .about .block-left .title {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .content .about .block-left .content {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .content .su-menh {
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
+
+    .content .su-menh .su-menh-item .title {
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+
+    .content .su-menh .su-menh-item .ctent {
+        font-size: 15px;
+        line-height: 150%;
+    }
+
+    .content .partner {
+        padding: 30px 20px;
+    }
+
+    .content .partner .p-title {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .content .partner .p-content {
+        font-size: 14px;
+    }
+}

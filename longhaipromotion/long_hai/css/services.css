@@ -1,0 +1,196 @@
+
+body {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    line-height: 150%;
+}
+
+.breadcrumb a,
+.breadcrumb {
+    color: rgba(2, 4, 22, 0.60);
+}
+
+.breadcrumb .active {
+    color: #020416;
+    font-weight: 500;
+}
+
+.service {
+    margin-bottom: 80px;
+}
+
+.service .wrap-service {
+
+}
+
+.service .wrap-service .title {
+    color: #020416;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.service .wrap-service .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.service .wrap-service .list .item .banner {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.service .wrap-service .list .item .banner img {
+    width: 100%;
+    border-radius: 24px;
+}
+
+.service .wrap-service .list .item {
+    position: relative;
+}
+
+.service .wrap-service .list .item:hover .info {
+    height: 100%;
+    grid-gap: 20px 0;
+    transition: .25s all;
+}
+
+.service .wrap-service .list .item .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35%;
+    z-index: 2;
+    border-radius: 24px;
+    background: linear-gradient(0deg, rgba(31, 42, 92, 0.86) 0%, rgba(31, 42, 92, 0.86) 100%);
+    display: flex;
+    grid-gap: 8px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+
+    transition: .25s all;
+
+}
+
+.service .wrap-service .list .item .info .name {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.service .wrap-service .list .item .info .description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-weight: 500;
+    line-height: 26px;
+    opacity: 0;
+    height: 0;
+    transition: .25s all;
+}
+
+.service .wrap-service .list .item:hover .info .description {
+    opacity: 1;
+    height: fit-content;
+}
+
+.service .wrap-service .list .item .info .redirect {
+    color: #FFF;
+    font-weight: 600;
+    border-radius: 12px;
+    border: 1px solid #FFF;
+    padding: 10px 20px;
+}
+
+
+@media only screen and (max-width: 1120px) {
+    .service .wrap-service .list .item .info {
+        height: 45%;
+        grid-gap: 10px 0;
+    }
+
+    .service .wrap-service .list .item .info .name {
+        font-size: 18px;
+    }
+
+    .service .wrap-service .list .item .info .redirect {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 921px) {
+    .service .wrap-service .title {
+        font-size: 24px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .service .wrap-service .list {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .service .wrap-service .list .item .info {
+        padding: 0px 10px;
+    }
+
+    .service .wrap-service .list .item:hover .info {
+        grid-gap: 10px 0;
+    }
+
+    .service .wrap-service .list .item .info .name {
+        font-size: 14px;
+    }
+
+    .service .wrap-service .list .item .info .redirect {
+        font-size: 12px;
+        padding: 7px 20px;
+    }
+
+    .service .wrap-service .list .item .info .description {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .service .wrap-service .title {
+        font-size: 18px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .service .wrap-service .list {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .service .wrap-service .list .item .info {
+        padding: 0px 10px;
+        grid-gap: 5px 0px;
+    }
+
+    .service .wrap-service .list .item:hover .info {
+        grid-gap: 10px 0;
+    }
+
+    .service .wrap-service .list .item .info .name {
+        font-size: 14px;
+    }
+    .service .wrap-service .list .item .info .redirect {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .service .wrap-service .list .item .info .description {
+        font-size: 12px;
+        line-height: normal;
+    }
+}

@@ -1,0 +1,64 @@
+:root {
+    --bgMain: #9b1217;
+    --bgNew: #05586c;
+}
+
+body {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wr-breadcrumb{
+    padding-top: 40px;
+}
+.breadcrumb a,
+.breadcrumb {
+    color: rgba(2, 4, 22, 0.60);
+    margin: 0;
+}
+
+.breadcrumb .active {
+    color: #020416;
+    font-weight: 500;
+}
+
+#chinh_sach .title {
+    color: #020416;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+#chinh_sach .content {
+    margin: 40px 0;
+    color: #020416;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: justify;
+}
+@media only screen and (max-width: 920px) {
+    #chinh_sach .title {
+        margin-top: 20px;
+    }
+
+    .wr-breadcrumb{
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #chinh_sach .title {
+          font-size: 22px;
+    }
+    #chinh_sach .content {
+        margin: 20px 0;
+        font-size: 15px;
+    }
+}

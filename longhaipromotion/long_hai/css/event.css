@@ -1,0 +1,566 @@
+:root {
+    --bgMain: #9b1217;
+    --bgNew: #05586c;
+}
+
+body {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.breadcrumb a,
+.breadcrumb {
+    color: rgba(2, 4, 22, 0.60);
+}
+
+.breadcrumb .active {
+    color: #020416;
+    font-weight: 500;
+}
+
+#service {
+    background: url("") no-repeat;
+    background-position: 100% 110%;
+    background-size: contain;
+}
+
+#service .banner {
+    width: 100%;
+}
+
+#service .banner img {
+    width: 100%;
+}
+
+#service .service {
+    padding-left: 40px;
+}
+
+#service .service .title {
+    color: #020416;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+#service .service .redirect {
+    margin-top: 40px;
+}
+
+#service .service .redirect a {
+    border-radius: 12px;
+    border: 1px solid #05586c;
+    padding: 11px 24px;
+    color: #05586c;
+}
+
+#service .name-service {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    height: 72px;
+    width: 40%;
+    background: #05586c;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 30px;
+    color: #FFF;
+    font-size: 20px;
+    letter-spacing: 7.2px;
+    text-transform: uppercase;
+}
+
+#summary {
+    padding: 60px 0px;
+    background: url("") no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+
+}
+
+#summary .list-summary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 40px;
+}
+
+#summary .list-summary .item-summary {
+    width: 30%;
+}
+
+#summary .summary-title {
+    color: #05586c;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+#summary .block {
+    border-radius: 24px;
+    background: #05586c;
+    padding: 19px;
+    height: 100%;
+    min-height: 260px;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#summary .block:hover {
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.16);
+}
+
+#summary .block span {
+    margin-left: 10px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#summary .block .topic {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#summary .block ul {
+    margin-top: 10px;
+    color: #FFF;
+    font-style: normal;
+}
+
+#summary .block ul li {
+    margin-top: 12px;
+}
+
+.bg-to-chuc-skien {
+    background: url("images/bg_tin_tuc.png") no-repeat;
+    background-size: cover;
+}
+
+#show {
+    margin-top: 40px;
+}
+
+#show {
+    grid-gap: 24px 0px;
+}
+
+#show .item-music {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#show .item-music:first-child {
+    border: none;
+}
+
+#show .item-music .item-music_left {
+    display: flex;
+
+}
+
+
+#show .item-music .item-music_left .card-img-top {
+    width: 350px;
+    border-radius: 12px;
+}
+
+#show .item-music .item-music_left .card-img-top img {
+    width: 100%;
+    object-fit: contain;
+}
+
+#show .item-music .item-music_left .show-detail {
+    margin-left: 40px;
+}
+
+#show .item-music .item-music_left .show-detail .card-title {
+    margin-bottom: 28px;
+}
+
+#show .item-music .item-music_left .show-detail .card-title .name-music {
+    color: var(--bgNew);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+#show .item-music .item-music_left .show-detail .card-title .name-music {
+    color: var(--bgNew);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+#show .item-music .item-music_left .show-detail .show-detail-text {
+    color: #020416;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+#show .item-music .item-music_left .show-detail .show-detail-text span {
+
+    margin-right: 8px;
+}
+
+#show .item-music .item-music_right {
+}
+
+#show .item-music .item-music_right .order-now {
+    border-radius: 12px;
+    background: linear-gradient(17deg, #05586c 11.76%, #46a8b3 168.42%);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 24px;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+#show {
+    margin-top: 60px;
+}
+
+#show .content-title {
+    color: #05586c;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;;
+    text-transform: uppercase;
+
+}
+
+#show .future {
+    margin: 40px 0;
+}
+
+#show .future .card .card-body .name-music {
+    color: var(--bgNew);
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+#show .future .card {
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.12);
+    margin: 5px;
+    border: 1px solid rgba(10, 83, 190, 0);
+}
+
+#show .future .card:hover {
+    border-radius: 24px;
+    border: 1.5px solid rgba(6, 48, 140, 0.60);
+    background: #FFF;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.20);
+}
+
+#show .future .card .card-body {
+    min-height: 250px;
+}
+
+#show .future .card .card-body .info-detail span {
+    color: #020416;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-left: 8px;
+}
+
+#show .future .card .card-body .info-detail .img-left {
+
+    margin-bottom: 15px;
+}
+
+#show .future .card .imgs {
+    padding: 10px;
+}
+
+#show .future .card .imgs .img-top {
+    width: 100%;
+    border-radius: 16px;
+    height: 250px;
+}
+
+#show .redirect {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#show .redirect a {
+    color: #05586c;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    width: 200px;
+    padding: 11px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    border: 1px solid #05586c;
+    margin-bottom: 40px;
+}
+
+div.swiper-button-next, div.swiper-button-prev {
+    background: var(--bgNew);
+    width: 40px;
+    height: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    overflow: hidden;
+    text-align: center;
+    left: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 100%;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+div.swiper-button-next {
+    right: 25px;
+    left: auto;
+    padding-left: 5px;
+}
+
+div.swiper-button-prev::after,
+div.swiper-button-next::after {
+    font-size: 18px
+}
+
+div.swiper-button-prev:hover,
+div.swiper-button-next:hover {
+    background: var(--bgNew);
+    color: #fff;
+}
+
+span.swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
+.page-item:last-child .page-link,
+.page-item:first-child .page-link,
+.page-item .page-link {
+    border-radius: 10.183px;
+    border: 1.273px solid #F1F1F1;
+    background: #FFF;
+    margin: 0px 5px;
+    color: #020416;
+}
+
+li.page-item.active .page-link {
+    background: #05586c;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    margin: 0 5px;
+}
+@media only screen and (min-width: 1370px) {
+    .main-sw div.swiper-button-next {
+        right: -45px;
+    }
+
+    .main-sw div.swiper-button-prev {
+        left: -30px;
+    }
+}
+
+@media only screen and (max-width: 1368px) {
+    #service .service {
+        padding: 0 45px 0 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #service .service .title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    #service .service {
+        padding: 0 0px 0 10px;
+    }
+
+    #service .service .content {
+        font-size: 14px;
+    }
+
+    #service .service .redirect {
+        margin-top: 25px;
+    }
+
+    #service .service .redirect a {
+        font-size: 14px;
+    }
+
+    #service .name-service {
+        height: 41px;
+        width: 33%;
+        font-size: 9px;
+        letter-spacing: 3.2px;
+        padding: 15px;
+    }
+
+    #summary .list-summary {
+        grid-gap: 10px;
+    }
+
+    #summary .list-summary .item-summary {
+        width: 49%;
+    }
+
+    #summary .block {
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #service {
+        background: none;
+    }
+
+    #service .wrap-service {
+        flex-direction: column-reverse;
+        margin-top: 25px;
+    }
+
+    #service .service .redirect {
+        margin: 35px 0;
+    }
+
+    #service .name-service {
+        height: 54px;
+        width: 70%;
+        font-size: 14px;
+        letter-spacing: 3.2px;
+        padding: 13px;
+    }
+
+    #summary .list-summary .item-summary {
+        width: 100%;
+    }
+
+    #summary {
+        padding: 30px 0px;;
+    }
+
+    #summary .summary-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    #summary .summary-title {
+        margin-bottom: 30px;
+    }
+
+    #summary .block {
+        border-radius: 15px;
+        padding: 10px 20px;
+        min-height: 200px;
+    }
+
+    #show .content-title {
+        font-size: 16px;
+        padding: 10px 50px;
+    }
+
+    #show .future {
+        margin: 20px 0;
+    }
+
+    #show {
+        margin-top: 30px;
+    }
+
+    #summary .block span {
+        font-size: 16px;
+    }
+
+    #summary .block ul {
+        font-size: 14px;
+    }
+
+    #summary .block ul li {
+        margin-top: 5px;
+    }
+
+    #summary .block ul {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    #service .name-service {
+        height: 36px;
+        width: 70%;
+        font-size: 9px;
+        letter-spacing: 3.2px;
+        padding: 13px;
+    }
+
+    #show .future .card .card-body .info-detail span {
+        font-size: 14px;
+    }
+
+    #show .future .card .card-body .info-detail .img-left {
+        margin-bottom: 2px;
+    }
+
+    #show .future .card .card-body {
+        min-height: 212px;
+    }
+
+    #show .redirect a {
+        font-size: 14px;
+        width: auto;
+    }
+
+    div.swiper-button-next, div.swiper-button-prev {
+        width: 30px;
+        height: 30px;
+    }
+
+    div.swiper-button-next {
+        right: 0;
+        left: auto;
+        padding-left: 5px;
+    }
+
+    div.swiper-button-prev {
+        left: 0;
+    }
+
+    div.swiper-button-prev::after, div.swiper-button-next::after {
+        font-size: 12px;
+    }
+}

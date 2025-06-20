@@ -1,0 +1,242 @@
+:root {
+    --bgMain: #9b1217;
+    --bgNew: #05586c;
+}
+
+body {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wr-breadcrumb {
+    padding-top: 40px;
+}
+
+.breadcrumb a,
+.breadcrumb {
+    color: rgba(2, 4, 22, 0.60);
+    margin: 0;
+}
+
+.breadcrumb .active {
+    color: #020416;
+    font-weight: 500;
+}
+
+.wrap-tuyen-dung {
+    margin-top: 40px;
+}
+
+.wrap-tuyen-dung {
+}
+
+.wrap-tuyen-dung .home-title .tuyendung_box2_title {
+    text-align: center;
+    color: #020416;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.wrap-tuyen-dung .home-title .desc {
+    color: #6C757D;
+    text-align: center;
+    font-weight: 500;
+    line-height: 22px;
+    margin-top: 16px;
+    padding: 0px 120px;
+}
+
+.wrap-tuyen-dung .tuyen-dung {
+    margin-top: 40px;
+}
+
+.wrap-tuyen-dung .tuyen-dung .block {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr  1fr;
+    grid-gap: 40px;
+    margin-bottom: 40px;
+}
+
+.wrap-tuyen-dung .tuyen-dung .name-title {
+    color: #e8b96e;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.wrap-tuyen-dung .tuyen-dung .list .item {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DDD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 20px;
+}
+
+.wrap-tuyen-dung .tuyen-dung .list .item .left {
+}
+
+.wrap-tuyen-dung .tuyen-dung .list .item .left .name {
+    color: #05586c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.wrap-tuyen-dung .tuyen-dung .list .item .left .name:hover {
+    color: #e8b96e;
+}
+
+.wrap-tuyen-dung .tuyen-dung .list .item .left .info {
+    color: #020416;
+    line-height: 26px;
+    margin-top: 10px;
+}
+
+.wrap-tuyen-dung .tuyen-dung .list .item .right {
+}
+
+.wrap-tuyen-dung .tuyen-dung .list .item .right button {
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.60);
+    background: linear-gradient(90deg, #07318D 0%, #124ED1 100%);
+    box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.20);
+    padding: 7px 15px;
+    color: #FFF;
+    font-weight: 500;
+    white-space: nowrap;
+    line-height: 20px;
+}
+
+.wrap-tuyen-dung .tuyen-dung .form {
+}
+
+.wrap-tuyen-dung .tuyen-dung .form .name-form {
+    color: #e8b96e;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.wrap-tuyen-dung .tuyen-dung .form {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.16);
+    padding: 40px;
+}
+
+.wrap-tuyen-dung .tuyen-dung .form .form-group {
+    margin-bottom: 15px;
+}
+
+.wrap-tuyen-dung .tuyen-dung .form .form-group label {
+    line-height: 26px;
+    color: #002241;
+    font-weight: 400;
+}
+
+.wrap-tuyen-dung .tuyen-dung .form .form-group textarea,
+.wrap-tuyen-dung .tuyen-dung .form .form-group input {
+}
+
+
+.wrap-tuyen-dung .tuyen-dung .form .form-group button {
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    background: linear-gradient(42deg, #05586c 25.62%, #46a8b3 106.2%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    padding: 15px 23px;
+}
+
+
+@media only screen and (max-width: 1025px) {
+    .wrap-tuyen-dung .home-title .desc {
+        padding: 0px 59px;
+    }
+
+    .wrap-tuyen-dung .home-title .tuyendung_box2_title {
+        font-size: 28px;
+    }
+
+    .wrap-tuyen-dung .tuyen-dung .name-title {
+        margin-bottom: 20px;
+    }
+
+    #chinh_sach .content {
+        margin: 20px 0;
+        font-size: 15px;
+    }
+
+    .wrap-tuyen-dung .tuyen-dung .block {
+        grid-gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .wrap-tuyen-dung .tuyen-dung .list .item .left .name {
+        font-size: 16px;
+    }
+
+    .wrap-tuyen-dung .tuyen-dung .form {
+        padding: 30px 20px;
+    }
+}
+
+@media only screen and (max-width: 921px) {
+    .wrap-tuyen-dung .tuyen-dung .block {
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    .wrap-tuyen-dung .tuyen-dung .list .item {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .wrap-tuyen-dung .home-title .tuyendung_box2_title {
+        font-size: 22px;
+    }
+
+    .wrap-tuyen-dung .home-title .desc {
+        padding: 0px 0px;
+        font-size: 13px;
+    }
+
+    .wrap-tuyen-dung .tuyen-dung {
+        margin-top: 25px;
+    }
+
+    .wrap-tuyen-dung .tuyen-dung .list .item .left .name {
+        font-size: 15px;
+    }
+
+    .wrap-tuyen-dung .tuyen-dung .list .item .left .info {
+        margin-top: 5px;
+    }
+
+    .wrap-tuyen-dung .tuyen-dung .list .item {
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+    }
+}
