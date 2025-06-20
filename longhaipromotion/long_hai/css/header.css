@@ -57,10 +57,10 @@ header .header-left .icon-menu button i {
   height: auto;
 }
 header .header-center .header-center__logo {
-  width: 70%;
+  width: auto;
   display: flex;
   justify-content: center;
-  height: 85px;
+  height: 50px;
 }
 header .header-menu {
   background-color: #fff;
