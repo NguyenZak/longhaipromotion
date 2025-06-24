@@ -1,6 +1,6 @@
 :root {
   --bgMain: #9b1217;
-  --bgNew: #27548A;
+  --bgNew: #05586c;
   --bgNew2: #46a8b3;
 }
 body {
@@ -25,7 +25,7 @@ header .header-left .header-left__info {
 header .header-left .header-left__info .hli_item {
   /* border-radius: 16px;
   border: 1px solid hsla(0, 0%, 100%, 0.4);
-  background: linear-gradient(42deg, #27548A 25.62%, #46a8b3 106.2%);
+  background: linear-gradient(42deg, #05586c 25.62%, #46a8b3 106.2%);
   box-shadow: 2px 4px 16px 0 #121b45;
   display: flex;
   align-items: center;

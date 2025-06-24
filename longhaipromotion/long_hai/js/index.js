@@ -41,7 +41,7 @@ const content = `
   <span class="outline">LONG HẢI PROMOTION</span><span class="separator">*</span>
 `;
 
-const repeated = content.repeat(20); // Số lần lặp đủ để hiệu ứng mượt
+const repeated = content.repeat(40); // Số lần lặp đủ để hiệu ứng mượt
 marquee.innerHTML = repeated;
 marqueeClone.innerHTML = repeated;
 

@@ -1,6 +1,6 @@
 :root {
   --bgMain: #9b1217;
-  --bgNew: #27548A;
+  --bgNew: #05586c;
 }
 body {
   font-weight: 400;
@@ -142,7 +142,7 @@ a {
 }
 #body #music .list-music .item-music .item-music_right .order-now {
   border-radius: 12px;
-  background: linear-gradient(17deg, #27548A 11.76%, #46a8b3 168.42%);
+  background: linear-gradient(17deg, #05586c 11.76%, #46a8b3 168.42%);
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -190,7 +190,7 @@ a {
   font-weight: 400;
   line-height: 20px;
   border-radius: 12px;
-  border: 1px solid #27548A;
+  border: 1px solid #05586c;
 }
 .wrap-form-contact .form-contact .form-send .btn-send {
   margin-top: 40px;
@@ -201,7 +201,7 @@ a {
   align-items: center;
   border-radius: 37px;
   border: 1px solid rgba(249, 213, 155, 0.08);
-  background: linear-gradient(42deg, #27548A 25.62%, #46a8b3 106.2%);
+  background: linear-gradient(42deg, #05586c 25.62%, #46a8b3 106.2%);
   box-shadow: 2px 4px 16px 0 #121b45;
   color: #fff;
   padding: 15px;
@@ -230,7 +230,7 @@ a {
 }
 .wrap-form-contact .form-contact .wrap-form {
   border-radius: 40px 40px 0 0;
-  background: linear-gradient(180deg, #27548A, #46a8b3);
+  background: linear-gradient(180deg, #05586c, #46a8b3);
   box-shadow: inset 0 0 40px 16px hsla(0, 0%, 100%, 0.12);
   padding: 40px;
 }
@@ -264,7 +264,7 @@ a {
   height: 100%;
 }
 .wrap-form-contact .form-contact .contact .icon span {
-  color: #27548A;
+  color: #05586c;
   margin-left: 7px;
 }
 section#music {
@@ -368,7 +368,7 @@ span.swiper-pagination-bullet-active {
   color: #020416;
 }
 li.page-item.active .page-link {
-  background: #27548A;
+  background: #05586c;
   color: #fff;
   padding: 5px 15px;
   margin: 0 5px;
@@ -576,7 +576,7 @@ li.page-item.active .page-link {
 .active > .page-link,
 .page-link.active {
   border-radius: 10.183px;
-  background: #27548A;
+  background: #05586c;
   border: 0;
 }
       swiper-container img {
@@ -699,7 +699,7 @@ li.page-item.active .page-link {
     .solid {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 600;
-      color: #27548A;
+      color: #05586c;
       display: inline;
     }
 
@@ -707,13 +707,13 @@ li.page-item.active .page-link {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 600;
       color: transparent;
-      -webkit-text-stroke: 1px #27548A;
-      text-stroke: 1px #27548A;
+      -webkit-text-stroke: 1px #05586c;
+      text-stroke: 1px #05586c;
       display: inline;
     }
 
     .separator {
-      color: #27548A;
+      color: #05586c;
       margin: 0 1rem;
     }
 
