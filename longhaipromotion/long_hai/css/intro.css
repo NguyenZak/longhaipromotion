@@ -25,7 +25,7 @@ body {
 
 .content .about {
     border-left: 6px solid #EAA43F;
-    background: #05586c;
+    background: #27548A;
     backdrop-filter: blur(2px);
     position: relative;
     margin-top: 40px;
@@ -83,8 +83,8 @@ body {
 }
 
 .content .su-menh .su-menh-item .title {
-    border: 1px solid #05586c;
-    background: #05586c;
+    border: 1px solid #27548A;
+    background: #27548A;
     color: #FFF;
     font-size: 24px;
     font-weight: 700;

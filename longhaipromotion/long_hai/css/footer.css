@@ -1,6 +1,6 @@
 footer {
   padding: 60px 0;
-  background: #05586c;
+  background: #27548A;
 }
 footer .wrap-footer {
   display: grid;
@@ -83,10 +83,12 @@ footer .no-copy-right {
   footer .footer-block .description,
   footer .footer-block .description a {
     font-size: 14px;
+    align-items: center;
   }
   footer .wrap-footer {
     grid-template-columns: 1fr;
     grid-gap: 20px;
+    align-content: center;
   }
   footer .footer-block:first-child {
     grid-column-end: 2;

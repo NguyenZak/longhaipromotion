@@ -1,6 +1,6 @@
 :root {
     --bgMain: #9b1217;
-    --bgNew: #05586c;
+    --bgNew: #27548A;
 }
 
 body {
@@ -84,7 +84,7 @@ a {
 
 
 .wrap-tuyen-dung .tuyen-dung .list .item .left .name {
-    color: #05586c;
+    color: #1e4460;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
@@ -149,7 +149,7 @@ a {
     width: 100%;
     border-radius: 16px;
     border: 1px solid rgba(255, 255, 255, 0.40);
-    background: linear-gradient(42deg, #05586c 25.62%, #46a8b3 106.2%);
+    background: linear-gradient(42deg, #1e4460 25.62%, #46a8b3 106.2%);
     display: flex;
     align-items: center;
     justify-content: center;

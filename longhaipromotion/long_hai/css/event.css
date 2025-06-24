@@ -1,6 +1,6 @@
 :root {
     --bgMain: #9b1217;
-    --bgNew: #05586c;
+   --bgNew: linear-gradient(17deg, #1e4460 11.76%, #122735 168.42%);
 }
 
 body {
@@ -56,9 +56,9 @@ a {
 
 #service .service .redirect a {
     border-radius: 12px;
-    border: 1px solid #05586c;
+    border: 1px solid #1e4460;
     padding: 11px 24px;
-    color: #05586c;
+    color: #1e4460;
 }
 
 #service .name-service {
@@ -67,7 +67,7 @@ a {
     left: 0;
     height: 72px;
     width: 40%;
-    background: #05586c;
+    background: #1e4460;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -98,7 +98,7 @@ a {
 }
 
 #summary .summary-title {
-    color: #05586c;
+    color: #1e4460;
     text-align: center;
     font-size: 32px;
     font-weight: 700;
@@ -108,7 +108,7 @@ a {
 
 #summary .block {
     border-radius: 24px;
-    background: #05586c;
+    background: #1e4460;
     padding: 19px;
     height: 100%;
     min-height: 260px;
@@ -225,7 +225,7 @@ a {
 
 #show .item-music .item-music_right .order-now {
     border-radius: 12px;
-    background: linear-gradient(17deg, #05586c 11.76%, #46a8b3 168.42%);
+    background: linear-gradient(17deg, #1e4460 11.76%, #46a8b3 168.42%);
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -239,7 +239,7 @@ a {
 }
 
 #show .content-title {
-    color: #05586c;
+    color: #1e4460;
     text-align: center;
     font-size: 32px;
     font-style: normal;
@@ -311,7 +311,7 @@ a {
 }
 
 #show .redirect a {
-    color: #05586c;
+    color: #1e4460;
     font-style: normal;
     font-weight: 600;
     display: flex;
@@ -321,7 +321,7 @@ a {
     align-items: center;
     gap: 8px;
     border-radius: 12px;
-    border: 1px solid #05586c;
+    border: 1px solid #1e4460;
     margin-bottom: 40px;
 }
 
@@ -381,7 +381,7 @@ span.swiper-pagination-bullet-active {
 }
 
 li.page-item.active .page-link {
-    background: #05586c;
+    background: #1e4460;
     color: #FFFFFF;
     padding: 5px 15px;
     margin: 0 5px;
